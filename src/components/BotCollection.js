@@ -7,16 +7,17 @@ function BotCollection(props) {
 
   return (
     <div className="ui four column grid">
-      <div className="row">
+        <centre>
+            <h2>Bots Collection</h2>
+        </centre>
+        <div className="row">
         {bot.map((bot) => {
           return (
             <>
               <BotCard bot={bot} handleBot={addBot} deleteBot={deleteBot} />
-              {/* <BotSpecs bot={bot} handleBot={addBot} /> */}
             </>
           );
         })}
-        Collection of all bots
       </div>
     </div>
   );

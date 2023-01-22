@@ -7,13 +7,20 @@ function YourBotArmy(props) {
   return (
     <div className="ui segment inverted olive bot-army">
       <div className="ui five column grid">
+        <centre>
+            <h2>
+                Your Bot Army
+            </h2>
+        </centre>
         <div className="row bot-army-row">
           {botArmy.map((bot) => {
             return (
-              <BotCard bot={bot} deleteBot={deleteBot} handleBot={removeBot} />
+              <BotCard 
+              bot={bot} 
+              deleteBot={deleteBot} 
+              handleBot={removeBot} />
             );
           })}
-          Your Bot Army
         </div>
       </div>
     </div>
