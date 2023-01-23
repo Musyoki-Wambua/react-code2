@@ -8,7 +8,7 @@ function BotCard(props) {
   return (
     <div className="col-3 p-1"  key={bot.id} onClick= {() => handleBot (bot)} >
         <div className="card h-100">
-        <img src={bot.avatar_url} class="card-img-top" alt="" />
+        <img src={bot.avatar_url} className="card-img-top" alt="" />
             <div className="card-body">
                 <h5 className="card-title"> {bot.name} </h5>
                 <p className="card-text"> {bot.catchphrase} </p>

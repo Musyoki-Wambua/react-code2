@@ -4,15 +4,15 @@ function YourBotArmy(props) {
   const { botArmy, removeBotFromTheArmy } = props;
 
   return (
-    <div className="ui four column grid">
+    <div className="container">
         <center>
             <h2>Your Bot Army</h2>
         </center>
         <div className="row">
             {botArmy.map((bot) => {
                 return (
-                  <div className="col-5 p-1" key={bot.id}>
-                    <div className="card h-100">
+                  <div className="col-3 p-1" key={bot.id}>
+                    <div className="ui four column grid">
                       <img src={bot.avatar_url} class="card-img-top" alt="" />
                       <div className="card-body">
                         <h5 className="card-title"> {bot.name} </h5>

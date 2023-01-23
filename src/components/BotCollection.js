@@ -7,9 +7,9 @@ function BotCollection(props) {
 
   return (
     <div className="container mt-4">
-        <centre>
+        <>
             <h2>Bots Collection</h2>
-        </centre>
+        </>
         <div className="row">
         {bot.map((bot) => {
           return (
