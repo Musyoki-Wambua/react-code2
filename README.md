@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# react-code2
-=======
 # BOT BATTLR
 
 ## User Story
@@ -64,4 +61,5 @@ To use this repository on your machine do the following simple steps:
 ## License
 
 - The project is licensed by ISC.
+
 >>>>>>> 3fb913ad57678c3800498341ed99bfc205a3bd4d
