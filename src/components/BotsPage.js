@@ -13,7 +13,7 @@ function BotsPage() {
   //fetch data from API
 
   useEffect(() => {
-    fetch("https://api.npoint.io/cc3e7ef17334c8c69e05/bots")
+    fetch("https://json-server-vercel-wdym-pjc31flqs-musyoki-wambua.vercel.app/bots")
       .then((resp) => resp.json())
       .then((bot) => setBot(bot));
   }, []);
@@ -35,7 +35,7 @@ function BotsPage() {
       setBot(filterArmy);
       setBotArmy(remainingArmy);
 
-      fetch(`https://api.npoint.io/cc3e7ef17334c8c69e05${delBot.id}`, {
+      fetch(`https://json-server-vercel-wdym-pjc31flqs-musyoki-wambua.vercel.app/${delBot.id}`, {
         method: "DELETE",
       });
     }
