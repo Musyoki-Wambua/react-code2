@@ -13,15 +13,18 @@ function BotsPage() {
   //fetch data from API
 
   useEffect(() => {
-    fetch("http://localhost:8001/bots")
+    fetch("https://api.npoint.io/cc3e7ef17334c8c69e05/bots")
       .then((resp) => resp.json())
       .then((bot) => setBot(bot));
   }, []);
 
   //addBotToTheArmy function
-  const addBotToTheArmy = (bots) => {
-    setBotArmy(bot.map((b) => (b.id === bots.id ? { ...b } : b)));
+  const addBotToTheArmy = (selectedBot) => {
+    if (!botArmy.find((bot) => bot.id === selectedBot.id)) {
+      setBotArmy(botArmy.concat(selectedBot));
+    }
   };
+
 
   //deleteBotPermanently function
   const deleteBotPermanently = (delBot) => {
@@ -32,7 +35,7 @@ function BotsPage() {
       setBot(filterArmy);
       setBotArmy(remainingArmy);
 
-      fetch(`http://localhost:8001/bots/${delBot.id}`, {
+      fetch(`https://api.npoint.io/cc3e7ef17334c8c69e05${delBot.id}`, {
         method: "DELETE",
       });
     }

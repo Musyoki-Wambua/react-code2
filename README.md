@@ -1,70 +1,63 @@
-# Getting Started with Create React App
+# BOT BATTLR
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## User Story
 
-## Available Scripts
+- This as an application that one can use to build their custom Bot army from bots that are listed. User can add an individual bot to your army by clicking it. They can also discharge their chosen bots if they wish to. If they should wish to user can discharge a bot from their service forever, by clicking the red button marked "x", which would delete the bot.
 
-In the project directory, you can run:
+## Development Requirements
 
-### `npm start`
+- This application was built with the following technologies:
+  - HTML
+  - CSS
+  - Javascript
+  - Visual Studio Code
+  - [Bootstrap](https://getbootstrap.com/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Running Application on Local Machine
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Getting Started
 
-### `npm test`
+In order for you to use the content on this repo ensure you have the following:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- A computer that runs on either of the following; (Windows 7+, Linux, Mac OS)
+- nodejs 9.0+
 
-### `npm run build`
+# Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To use this repository on your machine do the following simple steps:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Open a terminal / command line interface on your computer
+- Clone the repo by using the following to create a copy on your local machine:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+         git@github.com:Musyoki-Wambua/react-code2.git
 
-### `npm run eject`
+- Change directory to the repo folder:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+        cd react-code2
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- (Optional) Open it in Visual Studio Code:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+        code .
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Running the Application
 
-## Learn More
+- To run the application, you can use the following steps to run the app.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- On the cloned repository in your local machine cd into it and;
+  - Install required dependencies from npm
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+            npm install 
 
-### Code Splitting
+  - Run the application
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+            npm start
 
-### Analyzing the Bundle Size
+- You can also click on this link to go to the page directly :  [Click Here](https://https-github-com-musyoki-wambua-react-code1.vercel.app/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Authors
 
-### Making a Progressive Web App
+- [Joseph Wambua](https://github.com/Musyoki-Wambua)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## License
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- The project is licensed by ISC.

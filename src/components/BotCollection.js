@@ -6,7 +6,7 @@ function BotCollection(props) {
   const { bot, addBot, deleteBot } = props;
 
   return (
-    <div className="ui four column grid">
+    <div className="container mt-4">
         <centre>
             <h2>Bots Collection</h2>
         </centre>
