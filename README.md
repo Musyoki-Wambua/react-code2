@@ -52,7 +52,7 @@ To use this repository on your machine do the following simple steps:
 
             npm start
 
-- You can also click on this link to go to the page directly :  [Click Here](https://https-github-com-musyoki-wambua-react-code1.vercel.app/)
+- You can also click on this link to go to the page directly :  [Click Here](https://main--kaleidoscopic-torte-de8d2f.netlify.app/)
 
 ## Authors
 
