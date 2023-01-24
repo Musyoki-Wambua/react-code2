@@ -51,6 +51,6 @@
   "bugs": {
     "url": "https://github.com/Musyoki-Wambua/react-code2/issues"
   },
-  "homepage": "https://github.com/Musyoki-Wambua/react-code2#readme",
+  "homepage": ".",
   "devDependencies": {}
 }
