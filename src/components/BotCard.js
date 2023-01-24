@@ -1,8 +1,5 @@
 import React from "react";
 
-
-
-
 function BotCard(props) {
   const { bot, handleBot, deleteBot } = props;
   return (
