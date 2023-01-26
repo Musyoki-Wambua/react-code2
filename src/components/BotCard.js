@@ -25,7 +25,7 @@ function BotCard(props) {
                     Bot Class: {bot.bot_class}
                 </span>
             </div>
-            <button type="button" onClick={() => deleteBot(bot)} className="btn btn-danger" onClick={() => handleBot(bot)}>X</button>
+            <button type="button" onClick={() => deleteBot(bot)} className="btn btn-danger" >X</button>
         </div>        
     </div>
   )
