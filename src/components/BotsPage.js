@@ -4,7 +4,6 @@ import YourBotArmy from "./YourBotArmy";
 import BotCollection from "./BotCollection";
 
 function BotsPage() {
-
   //useState
   const [botArmy, setBotArmy] = useState([]);
   const [bot, setBot] = useState([]);
@@ -23,7 +22,6 @@ function BotsPage() {
       setBotArmy(botArmy.concat(selectedBot));
     }
   };
-
 
   //deleteBotPermanently function
   const deleteBotPermanently = (delBot) => {
@@ -53,7 +51,6 @@ function BotsPage() {
         removeBot={removeBotFromTheArmy}
         deleteBot={deleteBotPermanently}
       />
-      <br/>
       <BotCollection
         bot={bot}
         addBot={addBotToTheArmy}
